@@ -16,8 +16,6 @@ Microsoft introduced version 2.0 (internally version 1.2) with a completely new 
 * Supports "custom" triggers under Win8 and later.
 * Numerous work-arounds and checks to compensate for base library shortcomings.
 
-The project is based on work the originator started in January 2002 with the 1.0 library that is currently hosted on CodeProject.
-
 ## UI Library
 There is a second library that includes localized and localizable GUI editors and a wizard for tasks which mimic the ones in Vista and later and adds optional pages for new properties. Following is the list of available UI controls:
 
