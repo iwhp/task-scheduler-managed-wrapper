@@ -1,7 +1,7 @@
 # Task Scheduler Managed Wrapper
 This project provides a wrapper for the Windows Task Scheduler. It aggregates the multiple versions, provides an editor and allows for localization.
 
-**Main Library**
+## Main Library
 Microsoft introduced version 2.0 (internally version 1.2) with a completely new object model with Windows Vista. The managed assembly closely resembles the new object model, but allows the 1.0 (internally version 1.1) COM objects to be manipulated. It will automatically choose the most recent version of the library found on the host system (up through 1.4). Core features include:
 
 * Separate, functionally identical, libraries for .NET 2.0 and 4.0.
@@ -18,7 +18,7 @@ Microsoft introduced version 2.0 (internally version 1.2) with a completely new 
 
 The project is based on work the originator started in January 2002 with the 1.0 library that is currently hosted on CodeProject.
 
-**UI Library**
+## UI Library
 There is a second library that includes localized and localizable GUI editors and a wizard for tasks which mimic the ones in Vista and later and adds optional pages for new properties. Following is the list of available UI controls:
 
 * A DropDownCheckList control that is very useful for selecting flag type enumerations.
